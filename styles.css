@@ -1,12 +1,13 @@
 body {
     margin: 0;
     overflow: hidden;
+    background-color: white; /* Set the background to white */
 }
 
 .parallax {
     position: relative;
     width: 100%;
-    height: 200vh; /* Increased content height */
+    height: 2400px; /* Adjusted content height */
 }
 
 .background {
@@ -17,74 +18,58 @@ body {
 }
 
 .background1 {
-    background-image: url('background-image.jpg');
+    background-image: url('background-image.jpg'); /* Add your background image */
+}
+
+.background-rectangle {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+}
+
+.blue {
+    background-color: blue;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.green {
+    background-color: green;
+    top: 1600px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.middle-ground {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.circle {
+    width: 450px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin: 20px;
 }
 
 .foreground {
-    background-attachment: scroll;
     position: absolute;
-    top: 0;
+    top: 2000px;
     width: 100%;
-    height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 36px;
-}
-
-.box {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border: 2px solid #000;
-    margin: 20px;
-    color: #000;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-/* Adjust the positioning of the boxes for more separation */
-.box1 {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-}
-
-.box2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.box3 {
-    position: absolute;
-    top: 80%;
-    left: 20%;
-}
-
-.box4 {
-    position: absolute;
-    top: 110%;
-    left: 50%;
-}
-
-.box5 {
-    position: absolute;
-    top: 140%;
-    left: 20%;
-}
-
-.box6 {
-    position: absolute;
-    top: 170%;
-    left: 50%;
-}
-
-/* Additional styling for better visual separation */
-.box p {
-    margin: 0;
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid yellow;
+    transform: rotate(180deg);
 }
