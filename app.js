@@ -1,5 +1,5 @@
 const rellax1 = new Rellax('.parallax .rectangle', {
-    speed: -2, // Adjust the speed value as needed
+    speed: -6, // Adjust the speed value as needed
 });
 
 const rellax2 = new Rellax('.parallax .circle', {
@@ -7,7 +7,7 @@ const rellax2 = new Rellax('.parallax .circle', {
 });
 
 const rellax3 = new Rellax('.parallax .triangle', {
-    speed: -6, // Adjust the speed value as needed
+    speed: -2, // Adjust the speed value as needed
 });
 
 // You can create multiple instances with different speed values if needed
