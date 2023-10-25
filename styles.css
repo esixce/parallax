@@ -6,7 +6,7 @@ body {
 .parallax {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 200vh; /* Increased content height */
 }
 
 .background {
@@ -43,8 +43,11 @@ h1 {
     border: 2px solid #000;
     margin: 20px;
     color: #000;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
+/* Adjust the positioning of the boxes for more separation */
 .box1 {
     position: absolute;
     top: 20%;
@@ -57,7 +60,31 @@ h1 {
     left: 50%;
 }
 
+.box3 {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+.box4 {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+}
+
+.box5 {
+    position: absolute;
+    top: 140%;
+    left: 20%;
+}
+
+.box6 {
+    position: absolute;
+    top: 170%;
+    left: 50%;
+}
+
 /* Additional styling for better visual separation */
-.box1 p, .box2 p {
+.box p {
     margin: 0;
 }
