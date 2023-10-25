@@ -1,24 +1,12 @@
 body {
     margin: 0;
-    overflow: hidden;
     background-color: white; /* Set the background to white */
 }
 
 .parallax {
     position: relative;
     width: 100%;
-    height: 2400px; /* Adjusted content height */
-}
-
-.background {
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-}
-
-.background1 {
-    background-image: url('background-image.jpg'); /* Add your background image */
+    height: 3000px; /* Adjusted content height */
 }
 
 .background-rectangle {
@@ -31,21 +19,18 @@ body {
     background-color: blue;
     top: 0;
     left: 50%;
-    transform: translateX(-50%);
 }
 
 .green {
     background-color: green;
     top: 1600px;
     left: 50%;
-    transform: translateX(-50%);
 }
 
 .middle-ground {
     position: absolute;
     top: 600px;
     left: 50%;
-    transform: translateX(-50%);
 }
 
 .circle {
